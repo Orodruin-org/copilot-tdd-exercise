@@ -20,6 +20,7 @@ class Piece:
             self.shape = []
     
     def rotate(self):
-        """Rotate the piece 90 degrees in place (placeholder)."""
-        # TDD approach: implement later once you see the test fail
-        pass
+        """Rotate the piece 90 degrees in place."""
+        if self.type == TetrominoType.I:
+            self.shape = [(y, -x) for x, y in self.shape]
+        # Implement rotation logic for other Tetromino types as needed
