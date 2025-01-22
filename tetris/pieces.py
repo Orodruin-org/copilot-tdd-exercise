@@ -11,6 +11,8 @@ class TetrominoType(Enum):
 
 class Piece:
     def __init__(self, tetromino_type):
+        if tetromino_type is None or not isinstance(tetromino_type, TetrominoType):
+            raise ValueError("Invalid tetromino type")
         self.type = tetromino_type
         # For demonstration, store a shape as a list of coordinates or something similar
         # e.g., for an I piece, a simple placeholder could be:
