@@ -138,3 +138,4 @@ Example flow:
 - In board.py, implement the Board class with the required attributes.  
 - Re-run tests until the failure is resolved.  
 - Move to the next test.
+- Run CI pipeline
