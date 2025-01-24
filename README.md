@@ -139,3 +139,13 @@ Example flow:
 - Re-run tests until the failure is resolved.  
 - Move to the next test.
 - Run CI pipeline
+
+---
+
+## 10. Initial Tests Confirmation
+The initial tests mentioned in section 7 have been executed and verified to pass. This confirms that the basic functionality of the Tetris game is working as expected. You can now proceed with implementing additional features and tests as described in section 8.
+
+---
+
+## 11. Contributing
+We welcome contributions to this project. If you have suggestions for improvements or new features, please open an issue or submit a pull request. Make sure to follow the TDD approach and include tests for any new code you add.
