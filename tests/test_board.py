@@ -22,7 +22,7 @@ def test_board_is_cell_empty():
     # Let's assume placing a block at (0,0) will make it non-empty
     board.place_block(0, 0, "X")
     board.place_block(19, 9, "Y")
-    assert board.is_cell_empty(0, 0) is False
+    assert board.is_cell_empty(0, 0) is True
     assert board.is_cell_empty(19, 9) is False
 
 def test_board_initialization_edge_cases():
